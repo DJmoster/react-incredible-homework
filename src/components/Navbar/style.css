@@ -1,0 +1,51 @@
+
+nav {
+    width: 330px;
+    height: 100vh;
+    background-color: #2d3e4f;
+    text-align: center;
+}
+
+nav > div {
+    margin-top: 50%;
+}
+
+nav > div > h1 {
+    color: #cf404d;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+nav > div > div > a {
+    text-decoration: none !important;
+    color: #fff;
+}
+
+nav > div > div > a > h3 {
+    margin: 0;
+    font-weight: 300;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase !important;
+    text-decoration: none !important;
+    padding: 20px 0px;
+    font-size: 15px;
+}
+
+nav > div > div > a > h3:hover {
+    color: #cf404d;
+}
+
+.active {
+    color: #cf404d;
+}
+
+nav > .icons {
+    padding-top: 27vh;
+}
+
+nav > .icons > i {
+    color: #d9dcdf;
+    padding: 3px;
+}

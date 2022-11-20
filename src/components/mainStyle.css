@@ -1,0 +1,19 @@
+.top-block {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.top-block > h1 {
+    color: #313131;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.top-block > h4 {
+    font-family: 'Droid Sans', sans-serif;
+    color: hsla(0, 0%, 45.1%, 0.74);
+    font-size: 19px;
+    font-weight: 300;
+}

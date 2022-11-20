@@ -1,0 +1,24 @@
+.Gallery {
+    width: calc(100% - 330px);
+    height: 100vh;
+}
+
+.images-grid {
+    width: 60%;
+    margin-top: 10vh;
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.images-grid > div {
+    width: fit-content;
+    height: fit-content;
+}
+
+.images-grid > div > img {
+    width: 220px;
+    height: 220px;
+}

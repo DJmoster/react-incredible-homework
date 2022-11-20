@@ -1,0 +1,69 @@
+.Contact {
+    width: calc(100% - 330px);
+    height: 100vh;
+}
+
+.form-block {
+    width: 35%;
+    padding-top: 6vh;
+    margin: auto;
+}
+
+.form-block > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-block > div > input {
+    font-weight: 500;
+    font-family: Oswald, sans-serif;
+    box-sizing: border-box;
+    height: 38px;
+    width: 48%;
+    margin-bottom: 17px;
+    border: 0px solid #000;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgb(64 64 71 / 30%);
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #333333;
+    vertical-align: middle;
+    background-color: #ffffff;
+}
+
+.form-block > textarea {
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 17px;
+    font-weight: 500;
+    font-family: Oswald, sans-serif;
+    box-sizing: border-box;
+    border: 0px solid #000;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgb(64 64 71 / 30%);
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #333333;
+    vertical-align: middle;
+    background-color: #ffffff;
+}
+
+.form-block > button {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 4px;
+    background-color: #cf404d;
+    border: 0;
+    transition: background-color 300ms ease;
+    color: #fff;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Oswald, sans-serif;
+}
+
+.form-block > button:hover {
+    background-color: #000;
+    color: #fff;
+}

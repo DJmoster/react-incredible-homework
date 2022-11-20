@@ -1,0 +1,38 @@
+
+.content-block-element {
+    width: 23%;
+}
+
+.content-block-element > i {
+    font-size: 60px;
+}
+
+.content-block-element > h4 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #313131;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.content-block-element > p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 15px;
+}
+
+.content-block-element > h5 {
+    width: fit-content;
+    margin-top: 10px;
+    color: #cf404d;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.content-block-element > h5:hover {
+    color: #30ad64;
+}
